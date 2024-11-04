@@ -2,6 +2,7 @@
 A novel machine learning approach for comprehensive environmental health assessment by combining air and water quality metrics. This project implements a stacking ensemble model that provides holistic environmental quality classifications to support sustainable urban development.
 
 **Overview**
+
 This project addresses the growing challenge of environmental degradation in urban areas by developing an integrated machine learning model that:
 
 Combines air and water quality data to provide comprehensive environmental health assessments
