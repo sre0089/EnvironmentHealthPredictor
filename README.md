@@ -1,7 +1,7 @@
 # EnvironmentHealthPredictor
 A novel machine learning approach for comprehensive environmental health assessment by combining air and water quality metrics. This project implements a stacking ensemble model that provides holistic environmental quality classifications to support sustainable urban development.
 
-Overview
+**Overview**
 This project addresses the growing challenge of environmental degradation in urban areas by developing an integrated machine learning model that:
 
 Combines air and water quality data to provide comprehensive environmental health assessments
@@ -9,7 +9,7 @@ Achieves 99% accuracy in classifying environmental conditions
 Identifies key contributing factors to environmental degradation
 Supports data-driven decision making for environmental policy and interventions
 
-Features
+**Features**
 
 Data preprocessing pipeline for air and water quality metrics
 Advanced dataset concatenation and alignment techniques
@@ -24,8 +24,8 @@ Logistic Regression
 Feature importance analysis for identifying key environmental factors
 Comprehensive evaluation metrics and visualization
 
-Technical Details
-Dependencies
+**Technical Details**
+**Dependencies**
 
 Python 3.x
 scikit-learn
@@ -34,7 +34,7 @@ numpy
 matplotlib
 seaborn
 
-Dataset Requirements
+**Dataset Requirements**
 The model expects two primary datasets:
 
 Air Quality Data with metrics including:
@@ -55,36 +55,33 @@ Conductivity
 
 
 
-Model Pipeline
+**Model Pipeline**
 
-Data Preprocessing
+**Data Preprocessing**
 
 Clean and normalize air quality data
 Clean and normalize water quality data
 Calculate quality indices
 
 
-Data Alignment
-
+**Data Alignment**
 Average water quality metrics by state
 Align datasets based on location
 Concatenate aligned datasets
 
 
-Environmental Labeling
-
+**Environmental Labeling**
 Apply custom labeling algorithm
 Generate comprehensive environmental quality labels
 
 
-Model Training
-
+**Model Training**
 Train base models (RFC, SVC, Logistic Regression)
 Implement stacking ensemble
 Validate model performance
 
 
-Feature Selection
+**Feature Selection**
 
 Calculate feature correlations
 Identify key environmental indicators
@@ -92,7 +89,7 @@ Generate feature importance visualizations
 
 
 
-Results
+**Results**
 
 99% accuracy on test data
 Key predictive features identified:
