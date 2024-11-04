@@ -10,6 +10,8 @@ Achieves 99% accuracy in classifying environmental conditions
 Identifies key contributing factors to environmental degradation
 Supports data-driven decision making for environmental policy and interventions
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Features**
 
 Data preprocessing pipeline for air and water quality metrics
@@ -25,6 +27,8 @@ Logistic Regression
 Feature importance analysis for identifying key environmental factors
 Comprehensive evaluation metrics and visualization
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Technical Details**
 **Dependencies**
 
@@ -34,6 +38,8 @@ pandas
 numpy
 matplotlib
 seaborn
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Dataset Requirements**
 The model expects two primary datasets:
@@ -53,6 +59,8 @@ Biochemical oxygen demand
 Nitrate levels
 pH levels
 Conductivity
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -88,7 +96,7 @@ Calculate feature correlations
 Identify key environmental indicators
 Generate feature importance visualizations
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Results**
 
